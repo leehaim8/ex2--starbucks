@@ -296,3 +296,21 @@ footer > div {
     line-height: normal;
     margin-bottom: 8px;
 }
+
+.footer_link{
+    display: flex;
+    margin-left: 32px;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.copy_rights{
+    margin-top: 16px;
+    margin-left: 32px;
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
