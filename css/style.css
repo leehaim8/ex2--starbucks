@@ -297,14 +297,14 @@ footer > div {
     margin-bottom: 8px;
 }
 
-.footer_link{
+.footer_link {
     display: flex;
     margin-left: 32px;
     margin-top: 24px;
     gap: 24px;
 }
 
-.copy_rights{
+.copy_rights {
     margin-top: 16px;
     margin-left: 32px;
     color: #333;
@@ -313,4 +313,35 @@ footer > div {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.photo_section {
+    display: flex;  
+    margin-left: 32px;
+    margin-bottom: 32px;
+    gap: 32px;
+}
+
+#leftimage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    border: 4px solid #E6DBFE;
+}
+
+#middleimage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 388.286px;
+    height: 300px;
+    border: 4px solid #E6DBFE;
+}
+
+#rightimage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    border: 4px solid #E6DBFE;
 }
