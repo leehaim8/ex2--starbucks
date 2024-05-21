@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-#logo{
+#logo {
     background-image: url("../images/StarbucksLogo.png");
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ a {
     margin-left: 32px;
 }
 
-#logo span{
+#logo span {
     color: #3E3F43;
     font-family: Nunito;
     font-size: 24px;
@@ -44,7 +44,7 @@ a {
     padding-left: 70px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +52,7 @@ nav{
     gap: 64px;
 }
 
-nav a{
+nav a {
     color: #612999;
     font-family: Nunito;
     font-size: 30px;
@@ -62,12 +62,43 @@ nav a{
 
 }
 
-.selected{
+.selected {
     color: #612999;
     font-weight: 700;
 }
 
 
-nav a:hover{
+nav a:hover {
     color: #c38cf3;
+}
+
+.top_background {
+    background-image: url("../images/Topbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 797px;
+}
+
+.top_background h1 {
+    color: #612999;
+    font-family: Nunito;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 448px;
+}
+
+
+.top_background p {
+    color: #000;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 32px;
+    width: 448px;
 }
