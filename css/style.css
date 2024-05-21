@@ -102,13 +102,13 @@ nav a:hover {
     width: 448px;
 }
 
-#wrapper{
+#wrapper {
     margin-top: 32px;
     margin-left: 32px;
     margin-right: 32px;
 }
 
-.about_section h2{
+.about_section h2 {
     color: #612999;
     font-family: Rubik;
     font-size: 40px;
@@ -118,13 +118,114 @@ nav a:hover {
     margin-bottom: 32px;
 }
 
-.about_section p{
+.about_section p {
     color: #000;
     text-align: justify;
     font-family: Rubik;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140.625%; 
+    line-height: 140.625%;
     margin-bottom: 24px;
+}
+
+.lower_section {
+    color: #612999;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    height: 496px;
+    border-radius: 38px;
+    background: #EFECFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+    position: relative;
+}
+
+.drink:last-child {
+    margin-bottom: 319px;
+}
+
+.drink img {
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+.drink h3 {
+    color: #000;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 32px;
+    padding-top: 21px;
+}
+
+.drink p {
+    color: #333;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 315px;
+    padding-top: 7px;
+    padding-left: 32px;
+}
+
+.drink .price {
+    color: #612999;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 36px;
+}
+
+.heart {
+    background-color: #EFECFF;
+    background-image: url("../images/heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 40px;
+    width: 47px;
+    height: 47px;
+}
+
+.shoppingbasket {
+    background-color: #612999;
+    background-image: url("../images/shoppingbasket.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 406px;
+    width: 63px;
+    height: 63px;
 }
