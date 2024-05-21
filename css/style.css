@@ -1,4 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header,nav,section,article,aside,footer, section, div{
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo{
+    background-image: url("../images/StarbucksLogo.png");
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    margin-left: 32px;
+}
+
+#logo span{
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    padding-left: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 135px;
+    gap: 64px;
+}
+
+nav a{
+    color: #612999;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.selected{
+    color: #612999;
+    font-weight: 700;
+}
+
+
+nav a:hover{
+    color: #c38cf3;
 }
