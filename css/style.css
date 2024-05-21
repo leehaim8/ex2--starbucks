@@ -383,6 +383,44 @@ footer > div {
     margin-bottom: 16px;
 }
 
-ul:last-child {
-    margin-bottom: 340px;
+.form_section > h2 {
+    color: #612999;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 32px 0 32px 32px;
+}
+
+.form_details {
+    height: 503px;
+    background: #EFECFF;
+    margin: 0px 32px 350px 32px;
+    font-family: Rubik;
+}
+
+.form_details > form {
+    padding: 16px;
+}
+
+input[type=text], input[type=tel], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
