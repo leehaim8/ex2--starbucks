@@ -163,8 +163,6 @@ nav a:hover {
 }
 
 .drink img {
-    width: 376px;
-    height: 276px;
     border-radius: 38px;
 }
 
@@ -327,24 +325,18 @@ footer > div {
 #leftimage {
     background-repeat: no-repeat;
     background-size: contain;
-    width: 300px;
-    height: 300px;
     border: 4px solid #E6DBFE;
 }
 
 #middleimage {
     background-repeat: no-repeat;
     background-size: contain;
-    width: 388.286px;
-    height: 300px;
     border: 4px solid #E6DBFE;
 }
 
 #rightimage {
     background-repeat: no-repeat;
     background-size: contain;
-    width: 300px;
-    height: 300px;
     border: 4px solid #E6DBFE;
 }
 
