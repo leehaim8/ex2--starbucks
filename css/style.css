@@ -215,6 +215,7 @@ nav a:hover {
     margin-top: 40px;
     width: 47px;
     height: 47px;
+    cursor: pointer;
 }
 
 .shoppingbasket {
@@ -228,6 +229,7 @@ nav a:hover {
     margin-top: 406px;
     width: 63px;
     height: 63px;
+    cursor: pointer;
 }
 
 footer {
